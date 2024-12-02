@@ -1,0 +1,24 @@
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Traceback (most recent call last):
+  File "C:\Users\mamor\KoBART-summarization\train.py", line 104, in <module>
+    trainer.fit(model, dm, "last")
+  File "C:\Users\mamor\AppData\Local\Programs\Python\Python39\lib\site-packages\lightning\pytorch\trainer\trainer.py", line 532, in fit
+    call._call_and_handle_interrupt(
+  File "C:\Users\mamor\AppData\Local\Programs\Python\Python39\lib\site-packages\lightning\pytorch\trainer\call.py", line 43, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "C:\Users\mamor\AppData\Local\Programs\Python\Python39\lib\site-packages\lightning\pytorch\trainer\trainer.py", line 556, in _fit_impl
+    raise MisconfigurationException(
+lightning.fabric.utilities.exceptions.MisconfigurationException: You cannot pass `train_dataloader` or `val_dataloaders` to `trainer.fit(datamodule=...)`
+Traceback (most recent call last):
+  File "C:\Users\mamor\KoBART-summarization\train.py", line 104, in <module>
+    trainer.fit(model, dm, "last")
+  File "C:\Users\mamor\AppData\Local\Programs\Python\Python39\lib\site-packages\lightning\pytorch\trainer\trainer.py", line 532, in fit
+    call._call_and_handle_interrupt(
+  File "C:\Users\mamor\AppData\Local\Programs\Python\Python39\lib\site-packages\lightning\pytorch\trainer\call.py", line 43, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "C:\Users\mamor\AppData\Local\Programs\Python\Python39\lib\site-packages\lightning\pytorch\trainer\trainer.py", line 556, in _fit_impl
+    raise MisconfigurationException(
+lightning.fabric.utilities.exceptions.MisconfigurationException: You cannot pass `train_dataloader` or `val_dataloaders` to `trainer.fit(datamodule=...)`

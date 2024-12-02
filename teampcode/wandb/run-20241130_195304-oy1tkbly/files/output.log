@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "C:\Users\mamor\KoBART-summarization\train.py", line 100, in <module>
+    trainer = L.Trainer(max_epochs=args.max_epochs,
+  File "C:\Users\mamor\AppData\Local\Programs\Python\Python39\lib\site-packages\lightning\pytorch\utilities\argparse.py", line 70, in insert_env_defaults
+    return fn(self, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'resume_from_checkpoint'
+Traceback (most recent call last):
+  File "C:\Users\mamor\KoBART-summarization\train.py", line 100, in <module>
+    trainer = L.Trainer(max_epochs=args.max_epochs,
+  File "C:\Users\mamor\AppData\Local\Programs\Python\Python39\lib\site-packages\lightning\pytorch\utilities\argparse.py", line 70, in insert_env_defaults
+    return fn(self, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'resume_from_checkpoint'

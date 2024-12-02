@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "C:\Users\mamor\KoBART-summarization\train.py", line 96, in <module>
+    trainer = L.Trainer(max_epochs=args.max_epochs,
+  File "C:\Users\mamor\AppData\Local\Programs\Python\Python39\lib\site-packages\lightning\pytorch\utilities\argparse.py", line 70, in insert_env_defaults
+    return fn(self, **kwargs)
+  File "C:\Users\mamor\AppData\Local\Programs\Python\Python39\lib\site-packages\lightning\pytorch\trainer\trainer.py", line 399, in __init__
+    self._accelerator_connector = _AcceleratorConnector(
+  File "C:\Users\mamor\AppData\Local\Programs\Python\Python39\lib\site-packages\lightning\pytorch\trainer\connectors\accelerator_connector.py", line 154, in __init__
+    self._accelerator_flag = self._choose_gpu_accelerator_backend()
+  File "C:\Users\mamor\AppData\Local\Programs\Python\Python39\lib\site-packages\lightning\pytorch\trainer\connectors\accelerator_connector.py", line 367, in _choose_gpu_accelerator_backend
+    raise MisconfigurationException("No supported gpu backend found!")
+lightning.fabric.utilities.exceptions.MisconfigurationException: No supported gpu backend found!
+Traceback (most recent call last):
+  File "C:\Users\mamor\KoBART-summarization\train.py", line 96, in <module>
+    trainer = L.Trainer(max_epochs=args.max_epochs,
+  File "C:\Users\mamor\AppData\Local\Programs\Python\Python39\lib\site-packages\lightning\pytorch\utilities\argparse.py", line 70, in insert_env_defaults
+    return fn(self, **kwargs)
+  File "C:\Users\mamor\AppData\Local\Programs\Python\Python39\lib\site-packages\lightning\pytorch\trainer\trainer.py", line 399, in __init__
+    self._accelerator_connector = _AcceleratorConnector(
+  File "C:\Users\mamor\AppData\Local\Programs\Python\Python39\lib\site-packages\lightning\pytorch\trainer\connectors\accelerator_connector.py", line 154, in __init__
+    self._accelerator_flag = self._choose_gpu_accelerator_backend()
+  File "C:\Users\mamor\AppData\Local\Programs\Python\Python39\lib\site-packages\lightning\pytorch\trainer\connectors\accelerator_connector.py", line 367, in _choose_gpu_accelerator_backend
+    raise MisconfigurationException("No supported gpu backend found!")
+lightning.fabric.utilities.exceptions.MisconfigurationException: No supported gpu backend found!

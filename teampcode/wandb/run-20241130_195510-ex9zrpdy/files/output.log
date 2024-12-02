@@ -1,0 +1,12 @@
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Traceback (most recent call last):
+  File "C:\Users\mamor\KoBART-summarization\train.py", line 108, in <module>
+    trainer.fit(model, dm, resume_from_checkpoint=checkpoint_path) #추가사항
+TypeError: fit() got an unexpected keyword argument 'resume_from_checkpoint'
+Traceback (most recent call last):
+  File "C:\Users\mamor\KoBART-summarization\train.py", line 108, in <module>
+    trainer.fit(model, dm, resume_from_checkpoint=checkpoint_path) #추가사항
+TypeError: fit() got an unexpected keyword argument 'resume_from_checkpoint'

@@ -1,0 +1,29 @@
+2024-12-01 14:16:38,672 INFO    MainThread:9444 [wandb_setup.py:_flush():76] Current SDK version is 0.15.9
+2024-12-01 14:16:38,673 INFO    MainThread:9444 [wandb_setup.py:_flush():76] Configure stats pid to 9444
+2024-12-01 14:16:38,673 INFO    MainThread:9444 [wandb_setup.py:_flush():76] Loading settings from C:\Users\mamor\.config\wandb\settings
+2024-12-01 14:16:38,673 INFO    MainThread:9444 [wandb_setup.py:_flush():76] Loading settings from C:\Users\mamor\KoBART-summarization\wandb\settings
+2024-12-01 14:16:38,673 INFO    MainThread:9444 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-12-01 14:16:38,673 INFO    MainThread:9444 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-12-01 14:16:38,675 INFO    MainThread:9444 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program': 'C:\\Users\\mamor\\KoBART-summarization\\train.py'}
+2024-12-01 14:16:38,675 INFO    MainThread:9444 [wandb_init.py:_log_setup():524] Logging user logs to .\wandb\run-20241201_141638-yjv0uqxo\logs\debug.log
+2024-12-01 14:16:38,675 INFO    MainThread:9444 [wandb_init.py:_log_setup():525] Logging internal logs to .\wandb\run-20241201_141638-yjv0uqxo\logs\debug-internal.log
+2024-12-01 14:16:38,676 INFO    MainThread:9444 [wandb_init.py:init():564] calling init triggers
+2024-12-01 14:16:38,676 INFO    MainThread:9444 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {}
+2024-12-01 14:16:38,677 INFO    MainThread:9444 [wandb_init.py:init():613] starting backend
+2024-12-01 14:16:38,677 INFO    MainThread:9444 [wandb_init.py:init():617] setting up manager
+2024-12-01 14:16:38,681 INFO    MainThread:9444 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2024-12-01 14:16:38,684 INFO    MainThread:9444 [wandb_init.py:init():623] backend started and connected
+2024-12-01 14:16:38,688 INFO    MainThread:9444 [wandb_init.py:init():714] updated telemetry
+2024-12-01 14:16:38,720 INFO    MainThread:9444 [wandb_init.py:init():747] communicating run to backend with 60.0 second timeout
+2024-12-01 14:16:39,524 INFO    MainThread:9444 [wandb_run.py:_on_init():2180] communicating current version
+2024-12-01 14:16:39,583 INFO    MainThread:9444 [wandb_run.py:_on_init():2189] got version response upgrade_message: "wandb version 0.18.7 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-12-01 14:16:39,583 INFO    MainThread:9444 [wandb_init.py:init():798] starting run threads in backend
+2024-12-01 14:16:39,694 INFO    MainThread:9444 [wandb_run.py:_console_start():2159] atexit reg
+2024-12-01 14:16:39,694 INFO    MainThread:9444 [wandb_run.py:_redirect():2014] redirect: wrap_raw
+2024-12-01 14:16:39,694 INFO    MainThread:9444 [wandb_run.py:_redirect():2079] Wrapping output streams.
+2024-12-01 14:16:39,694 INFO    MainThread:9444 [wandb_run.py:_redirect():2104] Redirects installed.
+2024-12-01 14:16:39,695 INFO    MainThread:9444 [wandb_init.py:init():839] run started, returning control to user process
+2024-12-01 14:16:41,846 INFO    MainThread:9444 [wandb_run.py:_config_callback():1282] config_cb None None {'train_file': 'data/test.tsv', 'test_file': 'data/test.tsv', 'batch_size': 4, 'checkpoint': 'checkpoint2', 'max_len': 512, 'max_epochs': 7, 'lr': 3e-05, 'accelerator': 'gpu', 'num_gpus': 1, 'gradient_clip_val': 1.0, 'num_workers': 4}
+2024-12-01 15:53:22,221 WARNING MsgRouterThr:9444 [router.py:message_loop():77] message_loop has been closed
